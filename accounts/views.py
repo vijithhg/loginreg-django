@@ -33,7 +33,7 @@ def loginPage(request):
             login(request, user)
             return redirect('home')
         else:
-           return redirect('/login')
+            return redirect('login')
 
 
     context ={}
